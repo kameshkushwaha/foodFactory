@@ -1,0 +1,89 @@
+.lil{
+    
+    background-color: #ffffff;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ .lil a{
+    color: black;
+}
+.container{
+
+    position: relative;
+  text-align: right;
+  color: black;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.text-lft{
+    position: absolute;
+  top: 35%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+.sp{
+
+    font-family: sans-serif;
+    display: flex;
+    justify-content: left;
+    color: greenyellow;
+}
+
+.text-lftp{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 90px;
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+  .btnv{
+      margin-top: 40px;
+    padding: left 20px;
+   
+   
+    position: absolute;
+    
+    
+    top: 60%;
+    left: 1.3%;
+    transform: translate(-50%, -50%);
+    
+}
+.btnv .btnvc{
+
+    width: 150px;
+    background-color: greenyellow;
+    color: #ffffff;
+}
+.column {
+   margin-top: 90px;
+    margin-left: 80px;
+    float: left;
+    width: 25%;
+    
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    height: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
